@@ -1,0 +1,14 @@
+Package: spotify-client
+Version: 1:1.0.72.117.g6bd7cc73-35
+License: https://www.spotify.com/legal/end-user-agreement
+Vendor: Spotify AB
+Architecture: i386
+Maintainer: Spotify <tux@spotify.com>
+Installed-Size: 215972
+Depends: libasound2, libatomic1, libcurl3, libgconf-2-4, libglib2.0-0, libgtk2.0-0, libnss3, libssl1.1 | libssl1.0.2 | libssl1.0.1 | libssl1.0.0, libxss1, libxtst6, xdg-utils
+Recommends: libavcodec-ffmpeg56 | libavcodec-ffmpeg-extra56 | libavcodec54 | libavcodec-extra-54, libavformat-ffmpeg56 | libavformat54, zenity
+Suggests: libnotify4
+Section: sound
+Priority: extra
+Homepage: https://www.spotify.com
+Description: Spotify streaming music client
